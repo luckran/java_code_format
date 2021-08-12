@@ -1,4 +1,4 @@
-package com.jd.line.java_code_format;
+package com.jd.line.javacodeformat;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

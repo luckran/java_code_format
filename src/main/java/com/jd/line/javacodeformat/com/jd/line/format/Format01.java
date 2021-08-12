@@ -1,5 +1,4 @@
-package com.jd.line.java_code_format.com.jd.line.format;
-import java.math.BigDecimal;
+package com.jd.line.javacodeformat.com.jd.line.format;
 import java.util.Objects;
 
 /**

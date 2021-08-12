@@ -1,4 +1,4 @@
-package com.jd.line.java_code_format.com.jd.line.format;
+package com.jd.line.javacodeformat.com.jd.line.format;
 
 import java.util.Collection;
 import java.util.HashMap;
@@ -15,7 +15,7 @@ import java.util.Set;
  */
 public class FormatMap04 {
     public static void main(String[] args) {
-        HashMap<Object, Object> map = new HashMap<>();
+        HashMap<Object, Object> map = new HashMap<>(2);
         map.put("a", "a_value");
         map.put("b", "b_value");
         System.out.println("---map----" + map);
@@ -27,7 +27,7 @@ public class FormatMap04 {
         System.out.println(values);
         System.out.println(entries);
 
-        objects.add("jdifji");
+        objects.add("aaa");
 
 
     }

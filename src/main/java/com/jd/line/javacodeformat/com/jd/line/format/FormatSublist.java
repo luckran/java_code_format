@@ -1,4 +1,4 @@
-package com.jd.line.java_code_format.com.jd.line.format;
+package com.jd.line.javacodeformat.com.jd.line.format;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,10 +23,5 @@ public class FormatSublist {
         System.out.println("---ob---" + ob);
         obSub.set(0, "1212");
         System.out.println("---change obSub---" + ob);
-
-        ArrayList<Object> obSub1 = (ArrayList<Object>) obSub;
-        Object[] objects = obSub.toArray();
-        System.out.println("---objects---" + objects);
     }
-
 }

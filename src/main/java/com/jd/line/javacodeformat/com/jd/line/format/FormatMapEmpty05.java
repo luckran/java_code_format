@@ -1,5 +1,6 @@
 package com.jd.line.javacodeformat.com.jd.line.format;
 
+import java.util.Collections;
 import java.util.HashMap;
 
 /**
@@ -17,7 +18,7 @@ public class FormatMapEmpty05 {
         map.put("b", "b_value");
         System.out.println("---map----" + map);
 
-
+//        Collections.emptyMap()==-----=-=-=-=-=;;;;;;
 
 
     }

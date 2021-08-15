@@ -27,6 +27,7 @@ public class Format18 {
         }
         entrySet(map);
         keySet(map);
+        forE(map);
 
     }
 
@@ -52,6 +53,20 @@ public class Format18 {
         }
         long endTime = System.currentTimeMillis();
         System.out.println("keySet : " + (endTime - startTime));
+    }
+
+    /**
+     * 添加方法
+     *
+     * @param map
+     */
+    private static void forE(HashMap map) {
+        map.forEach((key, value) ->
+                {
+//                    System.out.println(key);
+                }
+        );
+
     }
 
 }

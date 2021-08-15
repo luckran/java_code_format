@@ -17,12 +17,12 @@ public class Format13 {
         List notGenerics = new ArrayList(10);
         notGenerics.add(new Object());
         notGenerics.add(new Integer(1));
-        generics = notGenerics;
+//        generics = notGenerics;
 //        String string = generics.get(0);
 
         System.out.println("-----" + (notGenerics instanceof List));
-        System.out.println("-----" + (generics instanceof List));
         System.out.println("-----" + (notGenerics instanceof ArrayList));
+        System.out.println("-----" + (generics instanceof List));
         System.out.println("-----" + (generics instanceof ArrayList));
 
         System.out.println(notGenerics.getClass());
